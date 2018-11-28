@@ -1,0 +1,120 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ body{
+    background-color: #fefefe;
+    font-family: "Roboto","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande","sans-serif";
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+  }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.brand-logo
+{
+  background-image: url('../img/AddNSubtractLogo.jpg');
+  background-repeat: no-repeat;
+  width: 165px;
+}
+
+.nav-display{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.nav-mobile-display{
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.text-white{
+  color: aliceblue;
+}
+.card-skyblue{
+  background: linear-gradient(60deg, #577bf3, #3050b9);;
+}
+.card-cyan{
+  background: linear-gradient(60deg, #57d4f3, #05d9ff);
+}
+.card-golden{
+  background : linear-gradient(60deg, #ffa726, #fb8c00);
+}
+.card-green{
+  background : linear-gradient(60deg, #66bb6a, #43a047);
+}
+.card-yellow{
+  background : linear-gradient(60deg, #a2aa35, #9ba700);
+}
+.card-red{
+  background : linear-gradient(60deg, #ef5350, #e53935);
+}
+.card-slateblue{
+  background : linear-gradient(60deg, #26c6da, #00acc1);
+}
+.card-cyanblue{
+  background : linear-gradient(60deg, #5490d4, #1583dd);
+}
+.card-darkgreen{
+  background: linear-gradient(60deg, #85c25d, #7ac533);
+}
+.card-pink{
+  background : linear-gradient(60deg, #cc5898, #a622ca);
+}
+.card-blue{
+  background : linear-gradient(60deg, #806ecf, #652ee4)
+}
+.card-voilet{
+  background : linear-gradient(60deg, #59d4ce, #00acc1);
+}
+.card-seagreen{
+  background : linear-gradient(60deg, #ec8938, #e67112);
+}
+.text-red{
+  color:#F44336;
+}
+.text-pink{
+  color:#E91E63;
+}
+.text-purple{
+  color:#9C27B0
+}
+.text-deeppurple{
+  color:#4527A0;
+}
+.text-indigo{
+  color:#283593;
+}
+.text-blue{
+  color:#0D47A1;
+}
+.text-lightlue{
+  color:#00B0FF;
+}
+.text-green{
+  color:#1B5E20;
+}
+.text-yellow{
+  color:#FFB300;
+}
+.text-orange{
+  color:#E65100;
+}
+.nopadding {
+  padding: 0 !important;
+}
