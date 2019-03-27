@@ -9,14 +9,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Add N Subtract</title>
     <base href="https://shakticse.github.io/APP/">    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Material Design Bootstrap -->
-    <link href="assets/css/mdb.min.css" rel="stylesheet" />
+    <link href="assets/css/mdb.lite.css" rel="stylesheet" />
     <!-- Your custom styles (optional) -->
     <link href="assets/css/style.min.css" rel="stylesheet" />
     <style type="text/css">
@@ -57,7 +54,7 @@
         }
       }
     </style>
-  <link rel="stylesheet" href="styles.f0505803b117f3eaf779.css"></head>
+  <link rel="stylesheet" href="styles.772514b5dad42bff5b73.css"></head>
 
   <body>
     <header>
@@ -98,14 +95,18 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="admin/post" target="_blank"
-                  >New Post</a
+                <a class="nav-link" href="admin/post">New Article</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="admin/managearticle"
+                  >Manage Article</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="admin/worksheet" target="_blank"
-                  >Worksheet</a
-                >
+                <a class="nav-link" href="admin/worksheet">Worksheet</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="admin/question">Add Question</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#" target="_blank">Free Math Games</a>
@@ -228,12 +229,14 @@
     <!-- Main layout -->
     <main>
       <div class="title info-color-dark white-text align-middle text-center">
-        Learn, Practise & Test Your Maths Skill | LKG–XII
+        Learn, Practice & Test Your Maths Skill | LKG–XII
       </div>
+      <!-- <div style="background-image: url('assets/img/background.jpg')"> -->
       <div class="container">
         <br />
         <app-root></app-root>
       </div>
+      <!-- </div> -->
     </main>
     <!-- Main layout -->
 
@@ -308,7 +311,31 @@
       // Animations initialization
       new WOW().init();
     </script>
-  <script type="text/javascript" src="runtime.34e0ced836cdde276d53.js"></script><script type="text/javascript" src="polyfills.711e3454d84842421680.js"></script><script type="text/javascript" src="scripts.f73536c433754fbd36ff.js"></script><script type="text/javascript" src="main.f4635cf03ff2e3083ca1.js"></script></body>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        showMathMenu: false,
+        inlineMath: [ ['*','*'], ["\\(","\\)"] ],
+        displayMath: [ ['**','**'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      "HTML-CSS": { fonts: ["TeX"] }
+      });
+    </script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML"
+    ></script>
+    <script type="text/javascript">
+      //MathJax.Hub.Queue(["Typeset", MathJax.Hub, "body"]);
+      $(document).ready(function() {
+        // var control = $('span["my-question"]');
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, "body"]);
+      });
+    </script>
+  <script type="text/javascript" src="runtime.34e0ced836cdde276d53.js"></script><script type="text/javascript" src="polyfills.711e3454d84842421680.js"></script><script type="text/javascript" src="scripts.f73536c433754fbd36ff.js"></script><script type="text/javascript" src="main.3dbfe187682ac9a40220.js"></script></body>
 </html>
 
 <!--
